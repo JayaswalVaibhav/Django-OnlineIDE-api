@@ -6,7 +6,7 @@ Supported Programming Languages
 
 Functionalities provided by the user
 - User Creation
-- Login with Authe
+- Login with Know Authentication
 - Code Submission - code, language extension, user input if required
 
 
