@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 # Create your models here.
 
-# get rid of this model as we are using inbuilt user model provided by djamgo
+# get rid of this model as we are using inbuilt user model provided by django
 # class User(models.Model):
 #     fullname = models.CharField(max_length=100)
 

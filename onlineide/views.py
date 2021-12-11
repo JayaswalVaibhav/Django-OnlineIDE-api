@@ -1,9 +1,7 @@
-from django.shortcuts import render
 from django.http import HttpResponse
 from rest_framework.viewsets import ModelViewSet
 from .serializers import UserSerializer, SubmissionCodeSerializer
 from .models import SubmissionCode
-# Create your views here.
 from .utils import create_code_file, execute_file
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from knox.views import LoginView as KnoxLoginView
@@ -18,7 +16,7 @@ from multiprocessing import Process
 def hello_world(request):
     return HttpResponse("Welcome to online IDE")
 
-# removed becasue we are using knox
+# removed because we are using knox
 # class UserViewSet(ModelViewSet):
 #     queryset = User.objects.all()
 #     serializer_class = UserSerializer
