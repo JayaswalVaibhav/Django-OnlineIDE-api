@@ -6,7 +6,7 @@ Supported Programming Languages
 
 Functionalities provided by the user
 - User Creation
-- Login with Know Authentication
+- Login with Knox Authentication
 - Code Submission - code, language extension, user input if required
 
 
